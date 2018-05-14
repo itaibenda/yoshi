@@ -235,7 +235,6 @@ module.exports = runner.command(
           project: 'tsconfig.json',
           rootDir: '.',
           outDir: './dist/',
-          module: 'commonjs',
         });
         await appServer();
 
